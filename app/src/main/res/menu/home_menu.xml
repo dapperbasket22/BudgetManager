@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/userSetting"
+            android:title="Settings"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/userLogout"
+            android:title="Logout"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/userFeedback"
+            android:title="Feedback"
+            app:showAsAction="never"/>
+    </group>
+    <item
+        android:id="@+id/createBud"
+        android:title="New Budget"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction = "ifRoom"
+        />
+</menu>
